@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Masongzhi_Blog</title>
+    <script src="/blog/jquery.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="/blog/masongzhi.css">
+    <link rel="stylesheet" href="/blog/blog.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header class="header">
+        <div class="wrap">
+            <a href="/blog/index.html">
+                <span class="logo">MASONGZHI</span>
+            </a>
+            <nav class="nav">
+                <a href="#" class="nav-text">DSP</a>
+                <a href="#" class="nav-text">focus<span>js</span></a>
+                <a href="/blog/index.html" class="nav-text selected blog-nav-blog">blog</a>
+                <a href="#" class="nav-text">demo</a>
+                <a href="https://github.com/masongzhi">
+                    <img src="/blog/github.png" alt="github">
+                </a>
+                <a href="javascript:void(0)" onclick="showLogin()" style="color: #333333;font-size: 1.3rem" id="login">登陆</a>
+                <!--登陆程序-->
+                <div class="login" style="display: none">
+                    <form action="" id="login-form">
+                        <input type="text" name="login-user" placeholder="账号">
+                        <input type="password" name="login-passwd" placeholder="密码">
+                        <input type="text" value="login" name="flag" style="display: none">
+                        <span id="login-btn">登陆</span>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <article class="article">
+       <!--页面加载时从数据库更新数据-->
+    </article>
+    <div class="pages">
+        <!--页面加载时更新页码-->
+    </div>
+    <div class="summit-form">
+        <!--页面加载时更新表单-->
+    </div>
+    <footer>
+        <p>Copyright ©2012-2015 MASONGZHI.CN</p>
+        <img src="微信二维码.png" alt="微信二维码" width="200" height="200">
+
+    </footer>
+
+    <script type="text/javascript" src="blog.js" charset="UTF-8"></script>
+</body>
+</html>

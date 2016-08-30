@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    font-size: 62.5%;
+    font-family: Consolas,Arial,'Microsoft Yahei','微软雅黑';
+}
+
+/*首页*/
+.header{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: #FDEB82;
+    opacity: 0.9;
+}
+.wrap{
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+}
+.wrap>a{
+    vertical-align: middle;
+    width: 200px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-family: "Microsoft YaHei UI";
+    margin-left: 50px;
+    color: #3F69E9;
+    font-size: 2.5rem;
+    display: block;
+    float: left;
+}
+.wrap>a:link,.nav>a:link{
+    text-decoration: none;
+}
+.nav{
+    height: 80px;
+    margin-right: 100px;
+    float: right;
+
+}
+.nav>a{
+    width: 80px;
+    height: 50px;
+    margin-right: 50px;
+    color: black;
+    font-size: 20px;
+    line-height: 80px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+.nav>a>span{
+    font-weight: normal;
+}
+.nav-text{
+    padding: 5px;
+
+}
+.selected{
+    border-bottom: 2px solid #FFFFFF;
+}
+.nav-text:hover{
+    background-color: #FFFFFF;
+    color: #4b6474;
+}
+
+
+.nav>a:last-child{
+    margin-right: 0px;
+}
+.nav img{
+    position: relative;
+    top: 10px;
+}
+.article{
+
+    padding-top: 100px;
+}
+section{
+    /*height: 600px;*/
+}
+section:nth-child(even){
+    background-color: #EAECF2;
+}
